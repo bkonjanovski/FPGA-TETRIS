@@ -5,5 +5,7 @@ A separate custom board was used for I/O, with 4 push buttons, a 8x12 LED Matrix
 
 ![IO_FPGA](./IO_FPGA.jpg)
 
-The FPGA Board is connected with this custom board via a 40-pin GPIO expansion header. <br>
+The FPGA Board is connected with this custom board via a 40-pin GPIO expansion header. <br /><br />
+The main game logic is written in <b>C</b> and runs on a <b>NIOSII</b> soft processor which is written in <b>VHDL</b>, in which the HW interfaces are defined.
+<br />
 The <a href="https://www.intel.com/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html">Quartus Prime Design Software</a> was used for development and the designs with the source code were flashed by USB.
